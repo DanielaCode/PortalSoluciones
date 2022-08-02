@@ -3,14 +3,16 @@ import Layout from '../containers/Layout';
 import  "../styles/Global.css";
 import Boton from '../components/Boton';
 import Input from '../components/Input';
+import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
     return (
-        <Layout>
-            <h1>hola mundo</h1>
-            <Boton/>
-            <Input/>
-        </Layout>
+        <Routes>
+            <Layout>
+                {/* <Route exact path="/" element={<Login/>} />
+                <Route exact path="/welcome" element={<Welcome/>} /> */}
+            </Layout>
+        </Routes>   
     );
 };
 
