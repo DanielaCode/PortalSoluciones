@@ -3,8 +3,8 @@ import "../styles/Boton.css";
 
 const Boton = () => {
     return (
-        <div className="contenedor-boton">
-            <input className="boton" type="button" value="Login"/>    
+        <div className="Boton">
+            <input className="Boton-content" type="button" value="Login"/>    
         </div>
     );
 };

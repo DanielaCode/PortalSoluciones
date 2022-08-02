@@ -4,9 +4,9 @@ import "../styles/Input.css";
 
 const Input = () => {
     return (
-        <div className='contenedor-input'>
-            <input className="entrada" type="text" placeholder="usuario"/>
-        </div>
+      <div className="Input">
+        <input className="Input-item" type="text" placeholder="usuario" />
+      </div>
     );
 };
 
