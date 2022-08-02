@@ -1,0 +1,23 @@
+@import "Global.css";
+.contenedor-boton{
+    width: 300px;
+    height: fit-content;
+    display: inline-grid;
+    place-content: center;
+}
+.boton{
+    width: 256px;
+    height: 40px;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    font-weight: 700;
+    font-size:var(--tamano-texto-md);
+    background-color: var(--color-secundario);
+}
+.boton:hover{
+    background-color: var(--color-primario);
+}
+.boton:active{
+    transform: translateY(2px);
+}
