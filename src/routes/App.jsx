@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from '../containers/Layout';
 import  "../styles/Global.css";
-import Boton from './Boton';
-import Input from './Input';
+import Boton from '../components/Boton';
+import Input from '../components/Input';
 
 const App = () => {
     return (
