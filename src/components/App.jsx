@@ -1,8 +1,11 @@
 import React from 'react';
+import Layout from '../containers/Layout';
 import  "../styles/global.css";
 const App = () => {
     return (
-        <h1>hola mundo! dani</h1>
+        <Layout>
+            
+        </Layout>
     );
 };
 
