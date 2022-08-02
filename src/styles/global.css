@@ -1,8 +1,29 @@
+:root{
+    --color-primario:#158CAB;
+    --color-secundario:#03C1D4;
+
+    --color-acento-primario:#FF8674;
+    --color-acento-secundario:#BDE4ED;
+
+    --color-texto-primario:#000000;
+    --color-texto-secundario: rgba(0, 0, 0, 0.6);
+    --colot-texto-placeholder:rgba(102, 102, 102, 0.2);
+
+    --tamano-texto-lg:24px;
+    --tamano-texto-ms:16px;
+    --tamano-texto-sm:8px;
+    
+    --gradiante:linear-gradient(#158CAB,#03C1D4,#ffffff);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    /*font-family: 'Ubuntu Condensed', sans-serif;*/
 }
 body{
-    background-color: aqua;
+    width: 100%;
+    height: 100vh; 
+    display: grid;
 }

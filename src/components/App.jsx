@@ -4,7 +4,7 @@ import  "../styles/global.css";
 const App = () => {
     return (
         <Layout>
-            
+            <h1>hola mundo</h1>
         </Layout>
     );
 };
